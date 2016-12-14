@@ -1,0 +1,33 @@
+/* -----------------------------------------------------------------------------
+HTML5 Canvas Clock
+----------------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #dbe4e6;
+    color: #36363a;
+    font: 1em Helvetica, sans-serif;
+}
+
+canvas {
+	/* without 'display' the scrollbars will appear when setting width/height using window.innerHeight */
+	display: block;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 1em;
+	left: 10%;
+	/*border: 0.3em solid #ccc;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;*/
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	margin-top: 200px;
+}

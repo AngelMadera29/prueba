@@ -1,0 +1,3 @@
+.contenedor{position:relative;width: 300px;float:left;display:inline-block;border:0px solid #000;margin: 20px;}
+.boton:before{content:"Mostrar";}
+.active:before{content:"Ocultar";}

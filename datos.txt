@@ -1,0 +1,15 @@
+select 
+registros.id,
+registros.id_rfid as rfid,
+P.nombre as nombres, 
+P.apellido1 as apellido1,
+P.apellido2 as apellido2,
+U.ubicacion as ubicacion, 
+registros.id_lector as lector, 
+registros.timestamp as tiempo
+
+from registros
+
+inner join ubicacion U on U.id = registros.id_zona
+inner join personal  P on P.id = registros.id_personal
+where 1
