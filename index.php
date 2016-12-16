@@ -61,6 +61,7 @@ if($_SESSION['nivel'] >= 2){
 //muestra listado de ubicaciones a niveles mayores que 3
 if($_SESSION['nivel'] >= 3){
 	 echo "	  <li><a href='?page=ubc'>Lista de Ubicaciones</a></li>";
+	 echo "	  <li><a href='?page=ubc'>Lista de cosas</a></li>";
 }else{
 	echo"<li></li>";
 }
@@ -247,4 +248,4 @@ if($_SESSION['nivel'] >= 2){
 	   ?> 
      </div>
   </body>
-</html>
+</html>s
